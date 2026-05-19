@@ -2,6 +2,8 @@
 
 Projeto desenvolvido para o Checkpoint 3 da disciplina Data Ethics, Governance & Security in the AI Age.
 
+https://ramosrabelo-ia.github.io/EduTechForward/
+
 ## Contexto
 
 A EduTech Forward enfrenta dados descentralizados, ausência de dicionário de dados, perda de memória técnica e falta de rastreabilidade no processo de cancelamento de matrícula.
