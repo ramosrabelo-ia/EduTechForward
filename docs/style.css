@@ -47,6 +47,9 @@ body{
   backdrop-filter:blur(22px);
   box-shadow:0 24px 80px rgba(0,0,0,.35);
   z-index:20;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
 }
 
 .brand{
@@ -79,7 +82,9 @@ body{
 .sidebar nav{
   display:grid;
   gap:8px;
-  margin:24px 0;
+  margin:24px 0 18px;
+  flex:1;
+  align-content:start;
 }
 
 .sidebar nav a{
@@ -98,11 +103,9 @@ body{
 }
 
 .mini-card{
-  position:absolute;
-  left:18px;
-  right:18px;
-  bottom:18px;
-  padding:18px;
+  position:static;
+  margin-top:auto;
+  padding:16px;
   border:1px solid rgba(103,232,249,.25);
   border-radius:22px;
   background:linear-gradient(145deg,rgba(56,189,248,.14),rgba(167,139,250,.10));
@@ -452,6 +455,35 @@ code{
 .reveal.visible{
   opacity:1;
   transform:translateY(0);
+}
+
+
+@media(max-height:850px) and (min-width:1151px){
+  .brand{
+    padding-bottom:16px;
+  }
+
+  .sidebar nav{
+    gap:4px;
+    margin:16px 0 12px;
+  }
+
+  .sidebar nav a{
+    padding:9px 12px;
+    font-size:14px;
+  }
+
+  .mini-card{
+    padding:13px;
+  }
+
+  .mini-card strong{
+    font-size:17px;
+  }
+
+  .mini-card p{
+    display:none;
+  }
 }
 
 @media(max-width:1150px){
