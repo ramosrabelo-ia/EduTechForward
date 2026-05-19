@@ -1,46 +1,268 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EduTech Forward | Governança de Dados</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduTech Forward | Governance Command Center</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav>
-      <strong>DataVault × EduTech Forward</strong>
-      <a href="https://github.com/ramosrabelo-ia/edutech-governanca-dados" target="_blank">GitHub</a>
-    </nav>
-    <div class="hero-content">
-      <p class="tag">Checkpoint 3</p>
-      <h1>Plano Rápido de Governança de Dados</h1>
-      <p>Uma proposta prática para transformar documentação, processos e metadados em ativos auditáveis, seguros e rastreáveis.</p>
-      <a class="button" href="#entregaveis">Ver entregáveis</a>
-    </div>
-  </header>
+  <div class="grain"></div>
 
-  <main>
-    <section class="cards">
-      <article><span>01</span><h3>Single Source of Truth</h3><p>Um repositório oficial para reduzir versões conflitantes.</p></article>
-      <article><span>02</span><h3>Dicionário de Dados</h3><p>Termos padronizados para BI, Produto, Suporte e Vendas.</p></article>
-      <article><span>03</span><h3>Rastreabilidade</h3><p>Histórico de alterações, responsáveis e decisões documentadas.</p></article>
-      <article><span>04</span><h3>LGPD</h3><p>Controle de acesso, retenção e proteção de dados pessoais.</p></article>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-icon">DV</div>
+      <div>
+        <strong>DataVault</strong>
+        <span>Governance Studio</span>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#overview" class="active">Overview</a>
+      <a href="#diagnostico">Diagnóstico</a>
+      <a href="#entregaveis">Entregáveis</a>
+      <a href="#processo">Processo</a>
+      <a href="#lgpd">LGPD</a>
+      <a href="#repositorio">Repositório</a>
+    </nav>
+
+    <div class="mini-card">
+      <span>Checkpoint 3</span>
+      <strong>10/10 Ready</strong>
+      <p>Governança aplicada com visão executiva, rastreabilidade e conformidade.</p>
+    </div>
+  </aside>
+
+  <main class="workspace">
+    <section id="overview" class="hero">
+      <div class="hero-text">
+        <div class="pill">FIAP • DATA ETHICS, GOVERNANCE & SECURITY IN THE AI AGE</div>
+        <h1>EduTech Forward Governance Command Center</h1>
+        <p>
+          Uma proposta executiva da DataVault para organizar dados, processos,
+          metadados, documentação e riscos LGPD em uma edtech em crescimento.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="#entregaveis">Ver plano de ação</a>
+          <a class="btn secondary" target="_blank" href="https://github.com/ramosrabelo-ia/EduTechForward">Abrir GitHub</a>
+        </div>
+      </div>
+
+      <div class="ai-panel">
+        <div class="window-dots">
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="question">
+          <small>Ask DataVault</small>
+          <strong>Como reduzir risco no cancelamento de matrícula?</strong>
+        </div>
+
+        <div class="answer">
+          <p>
+            Centralize a documentação, defina donos de dados, padronize campos críticos,
+            aplique revisão por Pull Request e monitore acessos ativos após cancelamento.
+          </p>
+        </div>
+
+        <div class="source-list">
+          <span>Single Source of Truth</span>
+          <span>Dicionário de Dados</span>
+          <span>LGPD</span>
+          <span>Rastreabilidade Agile</span>
+        </div>
+      </div>
     </section>
 
-    <section id="entregaveis">
-      <h2>Entregáveis</h2>
-      <div class="timeline">
-        <div><b>Mapa de Atores</b><p>Process Owner, Data Owner e objetos de dados.</p></div>
-        <div><b>Dicionário de Dados</b><p>Padronização de campos críticos do cancelamento.</p></div>
-        <div><b>Content Management</b><p>Estrutura de pastas, permissões e revisão documental.</p></div>
-        <div><b>Metadados</b><p>Correção de nomes inconsistentes e padrão snake_case.</p></div>
-        <div><b>Riscos e Transparência</b><p>Análise LGPD e rastreabilidade em Agile.</p></div>
+    <section class="metrics">
+      <article>
+        <span>Problemas</span>
+        <strong>4</strong>
+        <p>Dados descentralizados, ausência de dicionário, perda de memória técnica e processo sem rastreabilidade.</p>
+      </article>
+      <article>
+        <span>Entregáveis</span>
+        <strong>5</strong>
+        <p>Mapa de atores, dicionário, content management, metadados e análise de riscos.</p>
+      </article>
+      <article>
+        <span>Áreas envolvidas</span>
+        <strong>5</strong>
+        <p>Suporte, Financeiro, Vendas, Produto e BI trabalhando sobre a mesma verdade.</p>
+      </article>
+      <article>
+        <span>Risco crítico</span>
+        <strong>48h</strong>
+        <p>Acesso indevido à plataforma após solicitação de cancelamento.</p>
+      </article>
+    </section>
+
+    <section id="diagnostico" class="section split">
+      <div>
+        <div class="label">Diagnóstico executivo</div>
+        <h2>O problema não é só técnico. É falta de governança.</h2>
+        <p>
+          A EduTech Forward cresceu usando planilhas, sistemas separados e documentos espalhados.
+          O resultado é baixa confiança nos dados, perda de histórico técnico e dificuldade para auditar decisões.
+        </p>
+      </div>
+
+      <div class="stack">
+        <div class="stack-item">
+          <span>01</span>
+          <div>
+            <strong>Dados descentralizados</strong>
+            <p>Vendas, Produto e Suporte nomeiam campos de formas diferentes.</p>
+          </div>
+        </div>
+        <div class="stack-item">
+          <span>02</span>
+          <div>
+            <strong>Cancelamento sem rastreabilidade</strong>
+            <p>E-mails e planilhas dificultam saber quem fez o quê, quando e por quê.</p>
+          </div>
+        </div>
+        <div class="stack-item">
+          <span>03</span>
+          <div>
+            <strong>Memória técnica perdida</strong>
+            <p>Arquivos soltos no Drive não sustentam auditoria nem continuidade.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="entregaveis" class="section">
+      <div class="section-header">
+        <div>
+          <div class="label">Plano de ação rápido</div>
+          <h2>5 entregáveis obrigatórios, organizados como consultoria.</h2>
+        </div>
+        <p>Uma primeira entrega simples, auditável e pronta para virar rotina dentro da operação.</p>
+      </div>
+
+      <div class="deliverables">
+        <article>
+          <span>01</span>
+          <h3>Mapa de Atores</h3>
+          <p>Define Process Owner, Data Owner e objetos de dados no fluxo de cancelamento.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Dicionário de Dados</h3>
+          <p>Padroniza campos como status_matricula, id_aluno e status_acesso_plataforma.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Content Management</h3>
+          <p>Propõe estrutura GitHub com pastas, permissões e revisão antes da publicação.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Metadados</h3>
+          <p>Corrige inconsistências de nomes e define padrão único em snake_case.</p>
+        </article>
+        <article>
+          <span>05</span>
+          <h3>Riscos e Transparência</h3>
+          <p>Analisa LGPD, acesso indevido, planilhas descentralizadas e rastreabilidade Agile.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="processo" class="section process-card">
+      <div class="label">Processo crítico</div>
+      <h2>Cancelamento de matrícula com visão ponta a ponta.</h2>
+
+      <div class="flow">
+        <div class="step">
+          <small>Aluno</small>
+          <strong>Solicita cancelamento</strong>
+          <p>E-mail enviado ao suporte.</p>
+        </div>
+        <div class="line"></div>
+        <div class="step">
+          <small>Suporte</small>
+          <strong>Registra solicitação</strong>
+          <p>Precisa gerar registro rastreável.</p>
+        </div>
+        <div class="line"></div>
+        <div class="step">
+          <small>Financeiro</small>
+          <strong>Verifica pendências</strong>
+          <p>Aprova ou bloqueia o fluxo.</p>
+        </div>
+        <div class="line"></div>
+        <div class="step">
+          <small>Vendas</small>
+          <strong>Atualiza base</strong>
+          <p>Evita comunicação comercial indevida.</p>
+        </div>
+        <div class="line"></div>
+        <div class="step alert">
+          <small>Produto</small>
+          <strong>Bloqueia acesso</strong>
+          <p>Ponto crítico de segurança e LGPD.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="lgpd" class="section split">
+      <div class="risk">
+        <div class="risk-symbol">!</div>
+        <h3>Risco LGPD identificado</h3>
+        <p>
+          Dados pessoais de alunos circulam por planilhas e e-mails,
+          enquanto o acesso à plataforma pode continuar ativo após o cancelamento.
+        </p>
+      </div>
+
+      <div>
+        <div class="label">Transparência e conformidade</div>
+        <h2>Documentar é reduzir risco.</h2>
+        <p>
+          O dicionário de dados, o repositório versionado e o fluxo de revisão criam histórico auditável.
+          Assim, a EduTech consegue responder quem alterou, quando alterou, por qual motivo e com base em qual regra.
+        </p>
+
+        <div class="chips">
+          <span>Audit trail</span>
+          <span>Branch protection</span>
+          <span>Pull Request</span>
+          <span>Data Owner</span>
+          <span>LGPD</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="repositorio" class="section repo">
+      <div class="terminal">
+        <div class="terminal-top"><span></span><span></span><span></span></div>
+        <pre><code>EduTechForward/
+├── documentacao/
+├── dados/
+├── dicionario_dados/
+├── processos/
+├── seguranca_lgpd/
+├── fontes/
+├── docs/
+└── .github/workflows/</code></pre>
+      </div>
+
+      <div>
+        <div class="label">Single Source of Truth</div>
+        <h2>Uma única fonte oficial para documentos, decisões e evidências.</h2>
+        <p>
+          O GitHub funciona como ambiente central de documentação viva, com versionamento,
+          histórico, revisão e automações para garantir que a governança não dependa da memória de uma pessoa.
+        </p>
+        <a class="btn primary" target="_blank" href="https://github.com/ramosrabelo-ia/EduTechForward">Acessar repositório</a>
       </div>
     </section>
   </main>
 
-  <footer>FIAP • Data Ethics, Governance & Security in the AI Age</footer>
   <script src="script.js"></script>
 </body>
 </html>
