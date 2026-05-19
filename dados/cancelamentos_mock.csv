@@ -1,0 +1,4 @@
+id_aluno,nome_aluno,email_aluno,id_matricula,status_matricula,data_solicitacao_cancelamento,motivo_cancelamento,status_financeiro,status_acesso_plataforma
+1001,Ana Lima,ana@email.com,501,em_cancelamento,2026-04-22,falta_tempo,sem_pendencia,ativo
+1002,Carlos Souza,carlos@email.com,502,cancelada,2026-04-20,financeiro,sem_pendencia,bloqueado
+1003,Mariana Costa,mariana@email.com,503,ativa,,outros,pendente,ativo
